@@ -57,6 +57,15 @@ The biggest reason to use the Log color curve is how it retains the most dynamic
 If you’re familiar with  curves, you know that the bottom left of the curve represents your blacks and shadows, and as you move to the top right of the curve, you have your highlights and whites. As you can see, a Log curve pushes the darker part of the image upwards to retain shadows. The top of the curve shifts down to retain highlights. Therefore, you retain more data from each side of the color curve.
 Linear color space has constant and unchanged luminance values true to their exact mathematical values in the scene. To the human eye, this will look very dark and muddy in certain areas and overexposed in others because our eyes (and monitors for that matter) see colors differently than their exact luminance values and can see more detail in bright and dark areas. Therefore, we have to apply a different color space in order to see the color information in a more aesthetically pleasing way, as well as standardize color values for displays and monitors.
 
+
+![캡처_2020_09_28_08_49_36_532](https://user-images.githubusercontent.com/71207918/94378877-9b147300-0167-11eb-9f67-d1a185d00f08.png)
+
+In the image above, the linear function is in blue, the exponential function (how light behaves) is in red and the logarithmic function (how light is best stored) is in green.  
+
+If we assume the x-axis is the value of a color and the y-axis is the stored value, you can see that the linear function doesn’t change the value. It’s a very inefficient way to store color, since each perceptual increase is a doubling of value. This leads to both high values and a lot of wasted space in the brighter areas of the image. 
+
+A shadow going from 0.1 to 0.2 is a huge step, but to get the same increase out of a value of 0.6 you need to go all the way up to 1.2 even though the visual difference is the same. You need six times the amount of data to fill in the hole between 0.6 and 1.2 that you do to fill in between 0.1 and 0.2. Hence, the reason why this is inefficient.
+
 In linear color, adding “0.3” to the brightness of your image will be less and less effective the brighter the image gets, but in log color it will be equally effective as many times as you want to add that value. Because of this, most color grading work is done in logarithmic color space: it gives the most even control across the image.
 
 Linear color space, on the other hand, is the best for most other VFX operations because it allows you to manipulate the pixel values as they would exist in the real world.
