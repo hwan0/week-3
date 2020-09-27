@@ -69,3 +69,10 @@ A shadow going from 0.1 to 0.2 is a huge step, but to get the same increase out 
 In linear color, adding “0.3” to the brightness of your image will be less and less effective the brighter the image gets, but in log color it will be equally effective as many times as you want to add that value. Because of this, most color grading work is done in logarithmic color space: it gives the most even control across the image.
 
 Linear color space, on the other hand, is the best for most other VFX operations because it allows you to manipulate the pixel values as they would exist in the real world.
+
+
+
+https://cogmltn1957.tistory.com/25
+http://keruluke.com/archived_web/kft/vol4/lookuptable/
+https://www.actionvfx.com/blog/the-difference-between-linear-and-logarithmic-color-space-and-why-you-should-care
+https://www.rocketstock.com/blog/tips-for-log-color-space-compositing/
