@@ -58,7 +58,7 @@ If you’re familiar with  curves, you know that the bottom left of the curve re
 Linear color space has constant and unchanged luminance values true to their exact mathematical values in the scene. To the human eye, this will look very dark and muddy in certain areas and overexposed in others because our eyes (and monitors for that matter) see colors differently than their exact luminance values and can see more detail in bright and dark areas. Therefore, we have to apply a different color space in order to see the color information in a more aesthetically pleasing way, as well as standardize color values for displays and monitors.
 
 
-![캡처_2020_09_28_08_49_36_532](https://user-images.githubusercontent.com/71207918/94378877-9b147300-0167-11eb-9f67-d1a185d00f08.png)
+https://uploads.actionvfx.com/file/spina/photo/333/large_Graph.jpg
 
 In the image above, the linear function is in blue, the exponential function (how light behaves) is in red and the logarithmic function (how light is best stored) is in green.  
 
